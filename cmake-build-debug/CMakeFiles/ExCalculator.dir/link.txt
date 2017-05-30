@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ExCalculator.dir/main.cpp.o  -o ExCalculator 
