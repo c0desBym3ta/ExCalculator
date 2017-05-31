@@ -9,9 +9,6 @@ int main() {
     Operations op;
     std::string slc;
 
-    op.setN1(12);
-    op.setN2(6);
-
     std::cout << "Number 1: [" << op.getN1() << "]\nNumber 2: ["<< op.getN2()<<"]"<<std::endl;
     line();
 
