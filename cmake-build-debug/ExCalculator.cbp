@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/root/CLionProjects/ExCalculator/Operations.cpp">
+			<Option target="ExCalculator"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExCalculator/Operations.h">
+			<Option target="ExCalculator"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/ExCalculator/main.cpp">
 			<Option target="ExCalculator"/>
 		</Unit>

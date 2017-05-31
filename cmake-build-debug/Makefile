@@ -123,6 +123,33 @@ ExCalculator/fast:
 	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/build
 .PHONY : ExCalculator/fast
 
+Operations.o: Operations.cpp.o
+
+.PHONY : Operations.o
+
+# target to build an object file
+Operations.cpp.o:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Operations.cpp.o
+.PHONY : Operations.cpp.o
+
+Operations.i: Operations.cpp.i
+
+.PHONY : Operations.i
+
+# target to preprocess a source file
+Operations.cpp.i:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Operations.cpp.i
+.PHONY : Operations.cpp.i
+
+Operations.s: Operations.cpp.s
+
+.PHONY : Operations.s
+
+# target to generate assembly for a file
+Operations.cpp.s:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Operations.cpp.s
+.PHONY : Operations.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ExCalculator"
+	@echo "... Operations.o"
+	@echo "... Operations.i"
+	@echo "... Operations.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

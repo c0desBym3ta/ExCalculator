@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/root/CLionProjects/ExCalculator/Operations.cpp
+Operations.h
+/root/CLionProjects/ExCalculator/Operations.h
+
+/root/CLionProjects/ExCalculator/Operations.h
+string
+-
+iostream
+-
+
 /root/CLionProjects/ExCalculator/main.cpp
 iostream
 -
 string
 -
+Operations.h
+/root/CLionProjects/ExCalculator/Operations.h
 
