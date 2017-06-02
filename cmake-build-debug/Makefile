@@ -123,6 +123,60 @@ ExCalculator/fast:
 	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/build
 .PHONY : ExCalculator/fast
 
+Editor.o: Editor.cpp.o
+
+.PHONY : Editor.o
+
+# target to build an object file
+Editor.cpp.o:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Editor.cpp.o
+.PHONY : Editor.cpp.o
+
+Editor.i: Editor.cpp.i
+
+.PHONY : Editor.i
+
+# target to preprocess a source file
+Editor.cpp.i:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Editor.cpp.i
+.PHONY : Editor.cpp.i
+
+Editor.s: Editor.cpp.s
+
+.PHONY : Editor.s
+
+# target to generate assembly for a file
+Editor.cpp.s:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Editor.cpp.s
+.PHONY : Editor.cpp.s
+
+Info.o: Info.cpp.o
+
+.PHONY : Info.o
+
+# target to build an object file
+Info.cpp.o:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Info.cpp.o
+.PHONY : Info.cpp.o
+
+Info.i: Info.cpp.i
+
+.PHONY : Info.i
+
+# target to preprocess a source file
+Info.cpp.i:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Info.cpp.i
+.PHONY : Info.cpp.i
+
+Info.s: Info.cpp.s
+
+.PHONY : Info.s
+
+# target to generate assembly for a file
+Info.cpp.s:
+	$(MAKE) -f CMakeFiles/ExCalculator.dir/build.make CMakeFiles/ExCalculator.dir/Info.cpp.s
+.PHONY : Info.cpp.s
+
 Operations.o: Operations.cpp.o
 
 .PHONY : Operations.o
@@ -186,6 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ExCalculator"
+	@echo "... Editor.o"
+	@echo "... Editor.i"
+	@echo "... Editor.s"
+	@echo "... Info.o"
+	@echo "... Info.i"
+	@echo "... Info.s"
 	@echo "... Operations.o"
 	@echo "... Operations.i"
 	@echo "... Operations.s"

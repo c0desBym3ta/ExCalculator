@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/root/CLionProjects/ExCalculator/Editor.cpp" "/root/CLionProjects/ExCalculator/cmake-build-debug/CMakeFiles/ExCalculator.dir/Editor.cpp.o"
+  "/root/CLionProjects/ExCalculator/Info.cpp" "/root/CLionProjects/ExCalculator/cmake-build-debug/CMakeFiles/ExCalculator.dir/Info.cpp.o"
   "/root/CLionProjects/ExCalculator/Operations.cpp" "/root/CLionProjects/ExCalculator/cmake-build-debug/CMakeFiles/ExCalculator.dir/Operations.cpp.o"
   "/root/CLionProjects/ExCalculator/main.cpp" "/root/CLionProjects/ExCalculator/cmake-build-debug/CMakeFiles/ExCalculator.dir/main.cpp.o"
   )

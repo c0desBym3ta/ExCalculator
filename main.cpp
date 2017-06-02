@@ -2,7 +2,6 @@
 #include <string>
 #include "Operations.h"
 
-void line();
 
 int main() {
 
@@ -19,18 +18,8 @@ int main() {
     std::cout <<"1)Addition (+).\n2)Subtraction (-).\n3)Moltiplication (*).\n4)Division (/)."<<std::endl;
     line();
 
-    std::cout << "AVAILABLE SELECTIONS [+][-][*][/]: \t";
-    std::cin >> slc;
+    choice();
     line();
-
-    if(slc == "+")
-        std::cout <<op.addition(op.getN1(),op.getN2()) << std::endl;
-    if(slc == "-")
-        std::cout << op.subtraction(op.getN1(),op.getN2()) << std::endl;
-    if(slc == "*")
-        std::cout <<  op.moltiplication(op.getN1(),op.getN2()) << std::endl;
-    if(slc == "/")
-        std::cout <<  op.division(op.getN1(),op.getN2()) << std::endl;
 
 
     return 0;

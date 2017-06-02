@@ -1,1 +1,1 @@
-/usr/bin/c++   -g   CMakeFiles/ExCalculator.dir/main.cpp.o CMakeFiles/ExCalculator.dir/Operations.cpp.o  -o ExCalculator 
+/usr/bin/c++   -g   CMakeFiles/ExCalculator.dir/main.cpp.o CMakeFiles/ExCalculator.dir/Operations.cpp.o CMakeFiles/ExCalculator.dir/Info.cpp.o CMakeFiles/ExCalculator.dir/Editor.cpp.o  -o ExCalculator 
